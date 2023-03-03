@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: cornflowerblue;
+}
+
+
+
+
+.main-box {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.5em;
+    font-weight: 300;
+    line-height: 1.5em;
+    color: #333;
+    margin: 0 0 1.5em;
+    display: grid;
+    height: 20vh;
+    
+}
+
+.main-text {
+    grid-row: 1;
+    grid-column: 1;
+    justify-self: center;
+    align-self: center;
+    font-style: italic;
+}
