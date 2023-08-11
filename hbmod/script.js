@@ -10,7 +10,9 @@ fetch('ver.json')
         versionH.innerHTML = "Latest Version: <a href=\"https://github.com/activepass/hole-boi-mod/releases/tag/v" + latestVersion + "\">" + latestVersion + "</a>";
         // Convert from a unix timestamp to the relative format, ex "1 hour ago"
 
-        var relativeTime = timeDifference(new Date().getTime(), data["update-time-unix"]);
+        var updatetime = data["update-time-unix"]
+
+        var relativeTime = timeDifference(new Date().getTime(), updatetime);
         updateTimeH.textContent = "Last updated: " + relativeTime + " (" + new Date(data["update-time-unix"]).toLocaleString() + ")";
 
         var changelog = data["changelog"];
