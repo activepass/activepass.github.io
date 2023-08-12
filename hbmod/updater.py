@@ -9,5 +9,8 @@ changelog = input("Comments? ")
 
 json.dump({"latest-version": ver, "update-time-unix": unix_time, "changelog": changelog}, open("ver.json", "w"))
 
+print("\n -- Committing to GitHub -- \n")
+
 os.system("git commit -a -m \"Update to version " + ver + "\"")
 os.system("git push")
+

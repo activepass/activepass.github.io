@@ -1,0 +1,22 @@
+body {
+    background-color: rgb(33, 38, 48);
+    color: #ffffff;
+    font-family: sans-serif;
+}
+
+a {
+    color: #00cc99;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(33, 38, 48);
+    color: white;
+    text-align: center;
+    padding: 0.5em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+
