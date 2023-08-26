@@ -16,8 +16,8 @@ fetch('ver.json')
         updateTimeH.textContent = "Last updated: " + relativeTime + " (" + new Date(data["update-time-unix"]).toLocaleString() + ")";
 
         var changelog = data["changelog"];
-        if (changelog == "") { changelogH.textContent = "No changes listed."; return; }
-        changelogH.textContent = changelog;
+        if (changelog == "") { changelogH.innerHTML = "No changes listed."; return; }
+        changelogH.innerHTML = changelog;
 
 })
 .catch(error => {
