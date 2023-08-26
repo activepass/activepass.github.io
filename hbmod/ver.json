@@ -1,1 +1,1 @@
-{"latest-version": "1.4.4", "update-time-unix": 1693079027185.2427, "changelog": "Revert because that did NOT fix the crash goofball"}
+{"latest-version": "1.4.5", "update-time-unix": 1693086133834.2827, "changelog": "- Actually Fix the Crashing this time\\n- /ip command"}
