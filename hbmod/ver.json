@@ -1,1 +1,1 @@
-{"latest-version": "1.4.4", "update-time-unix": 1691787859752.2202, "changelog": "Fixes to URLs and new version data page"}
+{"latest-version": "1.4.5", "update-time-unix": 1693077347729.5442, "changelog": "Should Divert the crash caused by accessing the URL linked hashmap. Exception: java.util.ConcurrentModificationException"}
