@@ -1,1 +1,1 @@
-{"latest-version": "1.4.5", "update-time-unix": 1693086290492.0366, "changelog": "- Actually Fix the Crashing this time<br>/ip command"}
+{"latest-version": "1.4.6", "update-time-unix": 1693163693156.807, "changelog": "- Add new ip through /hb msg server<br>- Incorporate all fixes from the intermediary 1.4.5 versions"}
