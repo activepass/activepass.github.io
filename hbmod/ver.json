@@ -1,1 +1,1 @@
-{"latest-version": "1.4.7", "update-time-unix": 1693606239007.513, "changelog": "keybinding Thing"}
+{"latest-version": "1.4.7", "update-time-unix": 1693607177982.641, "changelog": "- Add keybind for msg escaping<br>- Attempt to fix crash from sound playing"}
