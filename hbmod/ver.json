@@ -1,1 +1,1 @@
-{"latest-version": "1.5.0", "update-time-unix": 1694887224486.089, "changelog": "- new text formatting, markdown style<br>- remove all old messaging systems<br>- client side clean<br>- ssc command <br>- raw messaging<br>- update default afkTimeout from 30s -> 300s<br>- rework Config system, so should be less issues with unicode characters saving weirdly"}
+{"latest-version": "1.5.1", "update-time-unix": 1694899558619.5654, "changelog": "- interpret server names"}
