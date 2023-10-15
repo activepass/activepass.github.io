@@ -1,0 +1,15 @@
+name: test-action
+on:
+  workflow_dispatch:
+    inputs:
+      version-number:
+        required: true
+
+jobs:
+  create-test:
+    runs-on: windows-latest
+
+    steps:
+    - name: Send
+      run: echo "Specified Version -> ${{ github.event.inputs.version }}"
+        
