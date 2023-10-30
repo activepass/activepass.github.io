@@ -1,1 +1,1 @@
-{"latest-version": "1.5.1", "update-time-unix": 1694899558619.5654, "changelog": "- interpret server names"}
+{"latest-version": "1.5.2", "update-time-unix": 1698696367678.7727, "changelog": "- version checking freeze fix <br> customisable escape char <br> phrase commands <br> other regex fixes"}
